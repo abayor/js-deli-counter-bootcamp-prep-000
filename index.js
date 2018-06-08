@@ -5,5 +5,5 @@ function takeANumber(katzDeli,newMember){
   katzDeli = [];
   katzDeli.push("newMember");
 }
-return katzDeli;
+return takeANumber;
 

@@ -13,7 +13,7 @@ function nowServing(katzDeliLine){
   else{
     var name = katzDeliLine[0]
     katzDeliLine.splice(0,1)
-    return "There is somebody on the Line currently servirng" + katzDeliLine.length
+    return "Currently serving " + name + "."
   }
   
 }

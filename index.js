@@ -11,7 +11,7 @@ function nowServing(){
     return "The line is empty"
   }
   else{
-    return "There is somebody on the Line currently servirng" +katzDeliLine[i]
+    return "There is somebody on the Line currently servirng" +katzDeliLine.length
   }
   
 }

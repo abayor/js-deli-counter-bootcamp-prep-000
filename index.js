@@ -29,9 +29,9 @@ function currentLine(katzDeliLine){
       var name = katzDeliLine[i];
       var  sn = i+1 + ". " + name + ",";
       
-     
+     return  "The line is currently:" + " " + sn  ;
     }
     
-     return  "The line is currently:" + " " + sn  ;
+     
   }
 }

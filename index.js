@@ -6,3 +6,4 @@ function takeANumber(katzDeli,newMember){
   katzDeli.push(newMember);
 }
 
+takeANumber(katzDeli,Ada)

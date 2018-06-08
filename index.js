@@ -1,4 +1,4 @@
-var katzDeli=[];
+var katzDeliLine=[];
 var otherDeli=[];
 
 function takeANumber(katzDeliLine, name) {
@@ -7,6 +7,12 @@ function takeANumber(katzDeliLine, name) {
 }
 
 function nowServing(){
-  if(katz)
+  if(katzDeliLine ===[]){
+    return "The line is empty"
+  }
+  else{
+    return "There is somebody on the Line currently servirng" +katzDeliLine[i]
+  }
+  
 }
 

@@ -8,10 +8,10 @@ function takeANumber(katzDeliLine, name) {
 
 function nowServing(){
   if(katzDeliLine ===[]){
-    return "The line is empty"
+    return "There is nobody waiting to be served!"
   }
   else{
-    return "There is somebody on the Line currently servirng" +katzDeliLine.length
+    return "There is somebody on the Line currently servirng" + katzDeliLine.length
   }
   
 }

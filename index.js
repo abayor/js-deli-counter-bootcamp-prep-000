@@ -1,5 +1,8 @@
+var katzDeli;
+var otherDeli;
 
-
-function takeANumber(){
-  
+function takeANumber(katzDeli,newMember){
+  katzDeli = [];
+  katzDeli.push(newMember);
 }
+return katzDeli

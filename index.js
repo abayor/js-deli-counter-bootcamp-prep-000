@@ -1,8 +1,9 @@
 var katzDeli=[];
 var otherDeli=[];
 
-function takeANumber(newMember,oldMember){
-   katzDeli.push();
-return katzDeli;
+function takeANumber(katzDeliLine, name) {
+  katzDeliLine.push(name)
+  return "Welcome, " + name + ". You are number " + katzDeliLine.length + " in line."
 }
+
 

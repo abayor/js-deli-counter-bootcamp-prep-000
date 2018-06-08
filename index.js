@@ -23,7 +23,13 @@ function currentLine(katzDeliLine){
     return "The line is currently empty."
   }
   else{
+    for(var i=0;i<katzDeliLine.length;i++){
+      var name = katzDeliLine[i]
+     
+      return "The line is currently:" katzDeliLine[i]
+      
+    }
     
-    return "The line is currently:" katzDeliLine.
+    
   }
 }

@@ -34,7 +34,7 @@ function currentLine(katzDeliLine){
       
     }
      lines = lines.slice(0, lines.length-2)
-     return  "The line is currently:" + " " + sn  ; 
+     return  "The line is currently:" + " " + lines  ; 
      
   }
 

@@ -3,7 +3,7 @@ var otherDeli;
 
 function takeANumber(katzDeli,newMember){
   katzDeli = [];
-  katzDeli.push(newMember);
+  katzDeli.push("newMember");
 }
 
-takeANumber(katzDeli,Ada)
+

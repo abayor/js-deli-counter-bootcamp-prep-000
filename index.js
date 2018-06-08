@@ -1,9 +1,8 @@
-var katzDeli;
-var otherDeli;
+var katzDeli=[];
+var otherDeli=[];
 
 function takeANumber(katzDeli,newMember){
-  katzDeli = ["welcome"];
-  katzDeli.push("Ada");
+   katzDeli.push("Ada");
 
 }
 
